@@ -18,6 +18,7 @@ public class Device2 : MonoBehaviour {
         {
             Debug.Log("Collided");
             collided = true;
+            StartCoroutine(DestroyBall(collision.gameObject));
         }
     }
 
@@ -31,5 +32,11 @@ public class Device2 : MonoBehaviour {
                 collided = false;
             }
         }
+    }
+
+    IEnumerator DestroyBall(GameObject _ball)
+    {
+        yield return new WaitForSeconds(1f);
+        Destroy(_ball);
     }
 }
