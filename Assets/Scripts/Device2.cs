@@ -9,7 +9,7 @@ public class Device2 : MonoBehaviour {
 
     private void Start()
     {
-        device = GameObject.Find("Pivot");
+        device = GameObject.Find("D2Pivot");
     }
 
     public void OnCollisionEnter(Collision collision)
