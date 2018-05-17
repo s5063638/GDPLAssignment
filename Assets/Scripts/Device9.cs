@@ -27,6 +27,7 @@ public class Device9 : MonoBehaviour {
         yield return new WaitForSeconds(3f);
         explosion.SetActive(true);
         Destroy(dynamite);
-        ball.GetComponent<Rigidbody>().AddForce(Vector3.right * 2f);
+        ball.GetComponent<Rigidbody>().AddForce(Vector3.right * 5.0f);
+        Destroy(this.gameObject.GetComponent<Device9>());
     }
 }

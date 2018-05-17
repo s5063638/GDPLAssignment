@@ -1,20 +1,17 @@
 fileFormatVersion: 2
-guid: b9ee91aaa6edc98459b483e8d2b6aeb7
-timeCreated: 1525087646
-licenseType: Pro
+guid: 75f84e812a599d3428fefbc3bc6da414
+timeCreated: 1526596978
+licenseType: Free
 ModelImporter:
   serializedVersion: 19
   fileIDToRecycleName:
     100000: mattress
     100002: //RootNode
-    100004: ridge
     400000: mattress
     400002: //RootNode
-    400004: ridge
     2300000: mattress
     3300000: mattress
     4300000: mattress
-    9500000: //RootNode
   materials:
     importMaterials: 1
     materialName: 0
@@ -79,7 +76,7 @@ ModelImporter:
     hasExtraRoot: 0
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  animationType: 2
+  animationType: 0
   humanoidOversampling: 1
   additionalBone: 0
   userData: 
