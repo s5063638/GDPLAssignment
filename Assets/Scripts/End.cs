@@ -24,6 +24,6 @@ public class End : MonoBehaviour {
     {
         catMeow.Play();
         yield return new WaitForSeconds(3f);
-        SceneManager.LoadSceneAsync("Main");
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 }

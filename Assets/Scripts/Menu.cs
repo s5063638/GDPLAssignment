@@ -15,4 +15,10 @@ public class Menu : MonoBehaviour {
         cam.GetComponent<Animator>().Play("GameFollow");
         startBlock.SetActive(false);
     }
+
+    public void Quit()
+    {
+        Debug.Log("Quit");
+        Application.Quit();
+    }
 }
